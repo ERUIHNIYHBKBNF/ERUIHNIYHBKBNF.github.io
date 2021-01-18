@@ -88,12 +88,12 @@
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclwrdwyaj20zk0m8are.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicitht3xtj20zk0m8k5v.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclil3m4ej20zk0m8tn8.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giph4wqtg4j20zk0m8x6p.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipev1x5e4j20zk0m8b29.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclh3brzpj20zk0m8ann.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipesrnqv3j20zk0m8ava.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giciryrr3rj20zk0m8nhk.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclfw2t96j20zk0m8x6p.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclfb3vzhj20zk0m8wny.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclga70tsj20zk0m84mr.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeu1usa7j20zk0m8b29.jpg"></li>
         </ul>
       </div>
     </header>
@@ -120,7 +120,67 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/12/23/%E5%86%99%E5%AF%B9%E6%8B%8D/" itemprop="url" title="写对拍(｀･ω･´)ﾉ"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1gicitzannuj20zk0m8b29.jpg"></a>
+    <a href="/2021/01/18/%E5%88%9D%E6%8E%A2BeautifulSoup%E5%BA%93/" itemprop="url" title="[爬虫笔记] 初探BeautifulSoup库"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1gicis3attqj20zk0m8k7l.jpg"></a>
+  </div>
+  <div class="info">
+    
+<div class="meta">
+  <span class="item" title="Created: 2021-01-18 09:52:35">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <time itemprop="dateCreated datePublished" datetime="2021-01-18T09:52:35+08:00">2021-01-18</time>
+  </span>
+</div>
+
+    <h3><a href="/2021/01/18/%E5%88%9D%E6%8E%A2BeautifulSoup%E5%BA%93/" itemprop="url" title="[爬虫笔记] 初探BeautifulSoup库">[爬虫笔记] 初探BeautifulSoup库</a></h3>
+    <div class="excerpt">
+        Soup 是汤啊… 咱还以为是肥皂 qwq
+
+# 基本使用
+beautifulsoup 类， html 文档， 标签树 (字符串) 认为等价。
+bs4 库将所有读入的 html 文件和字符串都转化为 UTF-8 编码
+# pip install beautifulsoup4from bs4 import BeautifulSoup # 注意大小写soup = BeautifulSoup(&quot;&amp;lt;html&gt;data&amp;lt;/html&gt;&quot;, &#39;html.parser&#39;) # 需要解析的 html 信息，解析器soup =...
+    </div>
+    <a href="/2021/01/18/%E5%88%9D%E6%8E%A2BeautifulSoup%E5%BA%93/" itemprop="url" title="[爬虫笔记] 初探BeautifulSoup库" class="btn">more...</a>
+  </div>
+</article>
+
+        
+<article class="item">
+  <div class="cover">
+    <a href="/2021/01/18/cpp%E4%B8%AD%E7%9A%84namespace/" itemprop="url" title="[C++学习笔记] C++中的namespace"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1gipetv6p75j20zk0m8x6p.jpg"></a>
+  </div>
+  <div class="info">
+    
+<div class="meta">
+  <span class="item" title="Created: 2021-01-18 08:51:29">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <time itemprop="dateCreated datePublished" datetime="2021-01-18T08:51:29+08:00">2021-01-18</time>
+  </span>
+</div>
+
+    <h3><a href="/2021/01/18/cpp%E4%B8%AD%E7%9A%84namespace/" itemprop="url" title="[C++学习笔记] C++中的namespace">[C++学习笔记] C++中的namespace</a></h3>
+    <div class="excerpt">
+        内容 CPOY 参考自菜鸟教程：C++ 命名空间
+
+# namespace std
+​	C++ 标准库中的所有标识符被包含于名为 std 的名字空间中。
+# 引用方式
+
+直接全局使用
+#include &amp;lt;iostream&gt;using namespace std;int main()&amp;#123; cout &amp;lt;&amp;lt; &quot;Hello Chino.&quot; &amp;lt;&amp;lt; endl; return 0;&amp;#125;为了防止出现各种奇奇怪怪的错误，需要尽量避免直接全局使用 namespace...
+    </div>
+    <a href="/2021/01/18/cpp%E4%B8%AD%E7%9A%84namespace/" itemprop="url" title="[C++学习笔记] C++中的namespace" class="btn">more...</a>
+  </div>
+</article>
+
+        
+<article class="item">
+  <div class="cover">
+    <a href="/2020/12/23/%E5%86%99%E5%AF%B9%E6%8B%8D/" itemprop="url" title="写对拍(｀･ω･´)ﾉ"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1giclxp31goj20zk0m8qv5.jpg"></a>
   </div>
   <div class="info">
     
@@ -161,7 +221,7 @@
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/12/20/Hello/" itemprop="url" title="Hello!"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1giclh3brzpj20zk0m8ann.jpg"></a>
+    <a href="/2020/12/20/Hello/" itemprop="url" title="Hello!"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1giclwrdwyaj20zk0m8are.jpg"></a>
   </div>
   <div class="info">
     
@@ -195,7 +255,7 @@ UPD: 2020-12-20
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/11/28/%E5%B9%B3%E8%A1%A1%E6%A0%91-Splay%E6%A8%A1%E6%9D%BF/" itemprop="url" title="[模板] 平衡树-Splay模板"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1giclize41wj20zk0m87gk.jpg"></a>
+    <a href="/2020/11/28/%E5%B9%B3%E8%A1%A1%E6%A0%91-Splay%E6%A8%A1%E6%9D%BF/" itemprop="url" title="[模板] 平衡树-Splay模板"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1gipesx5fdwj20zk0m81kx.jpg"></a>
   </div>
   <div class="info">
     
@@ -233,40 +293,7 @@ UPD: 2020-12-20
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/11/19/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C%E5%86%99%E7%BD%91%E9%A1%B5/" itemprop="url" title="初次体验写网页(&gt;v&lt;)"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1gipeun65urj20zk0m81ii.jpg"></a>
-  </div>
-  <div class="info">
-    
-<div class="meta">
-  <span class="item" title="Created: 2020-11-19 20:37:19">
-    <span class="icon">
-      <i class="ic i-calendar"></i>
-    </span>
-    <time itemprop="dateCreated datePublished" datetime="2020-11-19T20:37:19+08:00">2020-11-19</time>
-  </span>
-</div>
-
-    <h3><a href="/2020/11/19/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C%E5%86%99%E7%BD%91%E9%A1%B5/" itemprop="url" title="初次体验写网页(&gt;v&lt;)">初次体验写网页(>v<)</a></h3>
-    <div class="excerpt">
-        # 写在前面
-
-这年头还有谁不会写个网页啊，，呜呜呜咱爬了…
-
-​	作为软工人一定都听说过 web 三件套叭，，反正咱就只是听过名字罢了 就是 HTML / CSS / JavaScript。这三样东西就构成了一个漂亮的小地盘，也就是网页啦 (｢･ω･)｢
-三个东西分别是干啥的呢：
-
-HTML: 网页的结构。即网页中包含哪些内容，就是图片，文字，视频什么的都要在这里插。拿盖房子来说，html 相当于建一个骨架。
-CSS: 样式。各种元素的表现样式。例如字体，颜色，动画效果等。相当于装饰房子。
-JavaScript:...
-    </div>
-    <a href="/2020/11/19/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C%E5%86%99%E7%BD%91%E9%A1%B5/" itemprop="url" title="初次体验写网页(&gt;v&lt;)" class="btn">more...</a>
-  </div>
-</article>
-
-        
-<article class="item">
-  <div class="cover">
-    <a href="/2020/10/28/%E8%BF%B7%E5%AE%AB%E6%B8%B8%E6%88%8F%E7%9A%84%E4%BC%98%E5%8C%96/" itemprop="url" title="[摸鱼] 迷宫游戏的优化"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1gicitf0kl1j20zk0m87fe.jpg"></a>
+    <a href="/2020/10/28/%E8%BF%B7%E5%AE%AB%E6%B8%B8%E6%88%8F%E7%9A%84%E4%BC%98%E5%8C%96/" itemprop="url" title="[摸鱼] 迷宫游戏的优化"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1gipey0a334j20zk0m8qpt.jpg"></a>
   </div>
   <div class="info">
     
@@ -304,7 +331,7 @@ if...
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/10/26/%E4%BA%8C%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C%E5%B7%AE%E5%88%86/" itemprop="url" title="[杂题] 二维前缀和&#x2F;差分"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1gipeun65urj20zk0m81ii.jpg"></a>
+    <a href="/2020/10/26/%E4%BA%8C%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C%E5%B7%AE%E5%88%86/" itemprop="url" title="[杂题] 二维前缀和&#x2F;差分"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1giciuja1j1j20zk0m8kjl.jpg"></a>
   </div>
   <div class="info">
     
@@ -334,7 +361,7 @@ $ T\ (1\le T \le 100) $ 组数据， $n,m,a,b\ (1\le n,m \le 1000, 1\le a\le n, 
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/10/15/%E7%94%A8%E5%86%B0%E8%8C%B6%E5%A7%AC%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E8%BF%B7%E5%AE%AB/" itemprop="url" title="[摸鱼] 用冰茶姬生成随机迷宫"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1giclh0m9pdj20zk0m8hdt.jpg"></a>
+    <a href="/2020/10/15/%E7%94%A8%E5%86%B0%E8%8C%B6%E5%A7%AC%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E8%BF%B7%E5%AE%AB/" itemprop="url" title="[摸鱼] 用冰茶姬生成随机迷宫"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1gipexe4oykj20zk0m87ji.jpg"></a>
   </div>
   <div class="info">
     
@@ -364,7 +391,7 @@ $ T\ (1\le T \le 100) $ 组数据， $n,m,a,b\ (1\le n,m \le 1000, 1\le a\le n, 
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/10/15/%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E6%B8%B8%E6%A0%87%E8%8F%9C%E5%8D%95/" itemprop="url" title="[摸鱼] 制作一个游标菜单"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1gipexbei4hj20zk0m8npd.jpg"></a>
+    <a href="/2020/10/15/%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E6%B8%B8%E6%A0%87%E8%8F%9C%E5%8D%95/" itemprop="url" title="[摸鱼] 制作一个游标菜单"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1giciuv0socj20zk0m8qes.jpg"></a>
   </div>
   <div class="info">
     
@@ -401,7 +428,7 @@ if (op ==...
         
 <article class="item">
   <div class="cover">
-    <a href="/2020/08/16/%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91/" itemprop="url" title="[模板] 可持久化线段树"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1gipexbei4hj20zk0m8npd.jpg"></a>
+    <a href="/2020/08/16/%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91/" itemprop="url" title="[模板] 可持久化线段树"><img data-src="https://tva2.sinaimg.cn/mw690/6833939bly1gicliierfjj20zk0m8npd.jpg"></a>
   </div>
   <div class="info">
     
@@ -429,44 +456,6 @@ if (op ==...
 这就完事了？不行啊得把篇幅水够才行...
     </div>
     <a href="/2020/08/16/%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91/" itemprop="url" title="[模板] 可持久化线段树" class="btn">more...</a>
-  </div>
-</article>
-
-        
-<article class="item">
-  <div class="cover">
-    <a href="/2020/08/13/%E6%A0%91%E5%89%96%20+%20%E7%BA%BF%E6%AE%B5%E6%A0%91/" itemprop="url" title="[杂题] 树剖 + 线段树"><img data-src="https://tva3.sinaimg.cn/mw690/6833939bly1giclhpw3lwj20zk0m8gvw.jpg"></a>
-  </div>
-  <div class="info">
-    
-<div class="meta">
-  <span class="item" title="Created: 2020-08-13 10:56:16">
-    <span class="icon">
-      <i class="ic i-calendar"></i>
-    </span>
-    <time itemprop="dateCreated datePublished" datetime="2020-08-13T10:56:16+08:00">2020-08-13</time>
-  </span>
-</div>
-
-    <h3><a href="/2020/08/13/%E6%A0%91%E5%89%96%20+%20%E7%BA%BF%E6%AE%B5%E6%A0%91/" itemprop="url" title="[杂题] 树剖 + 线段树">[杂题] 树剖 + 线段树</a></h3>
-    <div class="excerpt">
-        线段树，yyds！ —— 沃・兹基硕德
-
-# 重链剖分
-
-预处理：两遍 dfs，第一次处理 子树大小 sz， 深度 dep， 父节点 fa， 重儿子 son； 第二次处理 重链顶点 top， 新编号 dfn， 新编号对应原节点 rev。
-
-修改 / 查询：
-
-两点不在同一条重链上：深的往上跳至 fa[top[x]] ，不断重复。
-直到两点在同一条重链上：此时两点编号连续，直接处理即可。
-
-整颗子树：整颗子树编号连续，即在 [dfn[root], dfn[root] + sz[root] - 1] 区间内。
-
-# 线段树
-​	满足区间加法的东西都可以用线段树维护欸嘿嘿 (´▽｀)...
-    </div>
-    <a href="/2020/08/13/%E6%A0%91%E5%89%96%20+%20%E7%BA%BF%E6%AE%B5%E6%A0%91/" itemprop="url" title="[杂题] 树剖 + 线段树" class="btn">more...</a>
   </div>
 </article>
 
@@ -505,7 +494,7 @@ if (op ==...
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">11</span>
+        <span class="count">12</span>
         <span class="name">posts</span>
       </a>
     </div>
@@ -569,7 +558,7 @@ if (op ==...
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/10/26/%E4%BA%8C%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C%E5%B7%AE%E5%88%86/" title="[杂题] 二维前缀和&#x2F;差分">[杂题] 二维前缀和/差分</a></span>
+    <span><a href="/2020/10/15/%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E6%B8%B8%E6%A0%87%E8%8F%9C%E5%8D%95/" title="[摸鱼] 制作一个游标菜单">[摸鱼] 制作一个游标菜单</a></span>
   </li>
 
       
@@ -587,7 +576,7 @@ if (op ==...
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/11/19/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C%E5%86%99%E7%BD%91%E9%A1%B5/" title="初次体验写网页(&gt;v&lt;)">初次体验写网页(>v<)</a></span>
+    <span><a href="/2020/08/16/%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91/" title="[模板] 可持久化线段树">[模板] 可持久化线段树</a></span>
   </li>
 
       
@@ -596,7 +585,7 @@ if (op ==...
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/11/28/%E5%B9%B3%E8%A1%A1%E6%A0%91-Splay%E6%A8%A1%E6%9D%BF/" title="[模板] 平衡树-Splay模板">[模板] 平衡树-Splay模板</a></span>
+    <span><a href="/2021/01/18/cpp%E4%B8%AD%E7%9A%84namespace/" title="[C++学习笔记] C++中的namespace">[C++学习笔记] C++中的namespace</a></span>
   </li>
 
       
@@ -614,7 +603,7 @@ if (op ==...
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/10/28/%E8%BF%B7%E5%AE%AB%E6%B8%B8%E6%88%8F%E7%9A%84%E4%BC%98%E5%8C%96/" title="[摸鱼] 迷宫游戏的优化">[摸鱼] 迷宫游戏的优化</a></span>
+    <span><a href="/2020/11/28/%E5%B9%B3%E8%A1%A1%E6%A0%91-Splay%E6%A8%A1%E6%9D%BF/" title="[模板] 平衡树-Splay模板">[模板] 平衡树-Splay模板</a></span>
   </li>
 
       
@@ -623,7 +612,16 @@ if (op ==...
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/08/16/%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91/" title="[模板] 可持久化线段树">[模板] 可持久化线段树</a></span>
+    <span><a href="/2020/08/07/%E7%94%9F%E6%88%90%E6%A0%91%20&%20LCA/" title="[杂题] 生成树 &amp; LCA">[杂题] 生成树 & LCA</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2020/08/13/%E6%A0%91%E5%89%96%20+%20%E7%BA%BF%E6%AE%B5%E6%A0%91/" title="[杂题] 树剖 + 线段树">[杂题] 树剖 + 线段树</a></span>
   </li>
 
       
@@ -641,16 +639,7 @@ if (op ==...
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/10/15/%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E6%B8%B8%E6%A0%87%E8%8F%9C%E5%8D%95/" title="[摸鱼] 制作一个游标菜单">[摸鱼] 制作一个游标菜单</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2020/08/07/%E7%94%9F%E6%88%90%E6%A0%91%20&%20LCA/" title="[杂题] 生成树 &amp; LCA">[杂题] 生成树 & LCA</a></span>
+    <span><a href="/2021/01/18/%E5%88%9D%E6%8E%A2BeautifulSoup%E5%BA%93/" title="[爬虫笔记] 初探BeautifulSoup库">[爬虫笔记] 初探BeautifulSoup库</a></span>
   </li>
 
   </ul>
